@@ -1,0 +1,10 @@
+.pagina__rodape {
+	background-color: #F2F2F2;
+	box-shadow: -1px 0 5px #BDBDBD;
+}
+
+.rodape__titulo {
+	font-family: monospace;
+	text-align: center;
+	transform: translateY(25%);
+}

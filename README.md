@@ -1,2 +1,2 @@
 # CSS-GRID
-## Site para treinamento de css-grid
+## Sites para treinamento de css-grid
