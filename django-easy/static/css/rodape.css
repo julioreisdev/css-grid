@@ -1,10 +1,20 @@
 .pagina__rodape {
 	background-color: #F2F2F2;
-	box-shadow: -1px 0 5px #BDBDBD;
+	border-top: 0.1px solid gainsboro;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 0.1rem 0 0.3rem 0;
 }
 
 .rodape__titulo {
 	font-family: monospace;
 	text-align: center;
 	transform: translateY(25%);
+}
+
+@media (min-width:0px) and (max-width:768px) {
+	.pagina__rodape {
+		position: static;
+	}
 }

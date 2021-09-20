@@ -1,0 +1,15 @@
+.cabecalho {
+    box-shadow: 0 1px 5px gainsboro;
+    background-color: #fff;
+
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .cabecalho {
+        position: static;
+    }
+}

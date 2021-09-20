@@ -1,0 +1,7 @@
+.sidebar {
+    border-top: 0.5px solid rgb(240, 240, 245);
+    border-right: 0.5px solid gainsboro;
+    background-color: ghostwhite;
+
+    padding: 1rem;
+}

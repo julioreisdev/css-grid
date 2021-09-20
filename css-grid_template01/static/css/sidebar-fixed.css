@@ -1,0 +1,9 @@
+.sidebar-fixed {
+    position: fixed;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .sidebar-fixed {
+        position: static;
+    }
+}

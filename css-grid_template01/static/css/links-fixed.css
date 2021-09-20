@@ -1,0 +1,9 @@
+.links-fixed {
+    position: fixed;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .links-fixed {
+        position: static;
+    }
+}

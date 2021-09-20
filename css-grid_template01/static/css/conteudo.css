@@ -1,0 +1,13 @@
+.conteudo {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 15vw 70vw 15vw;
+
+    
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .conteudo {
+        display: block;
+    }
+}

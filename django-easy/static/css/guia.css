@@ -1,0 +1,22 @@
+.guia__titulo {
+    font-weight: bold;
+}
+
+.guia__links {
+    margin: 0.5rem 0 1rem 1rem;
+}
+
+.guia__links--link {
+    display: block;
+    text-decoration: none;
+    color: rgb(84, 108, 153);
+    margin: 0.4rem 0;
+}
+
+.guia__links--link:before {
+    content: "● ";
+}
+
+.guia__links--link:hover {
+    text-decoration: underline;
+}

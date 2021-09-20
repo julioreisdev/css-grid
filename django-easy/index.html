@@ -6,9 +6,17 @@
 	<title>Django Easy</title>
 
 	<link rel="stylesheet" href="static/css/reset.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="static/css/style.css">
 	<link rel="stylesheet" href="static/css/cabecalho.css">
 	<link rel="stylesheet" href="static/css/rodape.css">
+	<link rel="stylesheet" href="static/css/conteudo.css">
+	<link rel="stylesheet" href="static/css/guia.css">
+	<link rel="stylesheet" href="static/css/tutorial.css">
 </head>
 <body class="pagina">
 	<header class="pagina__cabecalho">
@@ -17,7 +25,70 @@
 			<h1 class="cabecalho__titulo"><span class="texto-cor-vermelha">import</span> Django Easy</h1>
 		</section>
 	</header>
-	<main class="pagina__conteudo">Alguma coisa</main>
+	<main class="pagina__conteudo">
+		<section class="sidebar">
+			<section class="sidebar__guia">
+				<fieldset class="guia">
+					<legend class="guia__titulo">Instalação</legend>
+					<div class="guia__links">
+						<a href="#python" class="guia__links--link">Python</a>
+						<a href="" class="guia__links--link">Ambiente virtual</a>
+						<a href="" class="guia__links--link">Django</a>
+					</div>
+				</fieldset>
+				<fieldset class="guia">
+					<legend class="guia__titulo">Projeto Django</legend>
+					<div class="guia__links">
+						<a href="" class="guia__links--link">Criando projeto</a>
+						<a href="" class="guia__links--link">O que eu fiz?</a>
+						<a href="" class="guia__links--link">Run Server</a>
+					</div>
+				</fieldset>
+				<fieldset class="guia">
+					<legend class="guia__titulo">Aplicação Django</legend>
+					<div class="guia__links">
+						<a href="" class="guia__links--link">O que é uma app?</a>
+						<a href="" class="guia__links--link">startapp</a>
+						<a href="" class="guia__links--link">função home</a>
+					</div>
+				</fieldset>
+				<fieldset class="guia">
+					<legend class="guia__titulo">Templates Django</legend>
+					<div class="guia__links">
+						<a href="" class="guia__links--link">O que é um template?</a>
+						<a href="" class="guia__links--link">Seu template</a>
+						<a href="" class="guia__links--link">Bônus</a>
+					</div>
+				</fieldset>
+				<fieldset class="guia">
+					<legend class="guia__titulo">Fim</legend>
+					<div class="guia__links">
+						<a href="" class="guia__links--link">Parabéns!</a>
+						<a href="" class="guia__links--link">Para onde ir?</a>
+					</div>
+				</fieldset>
+			</section>
+		</section>
+		<section class="tutorial">
+			<section class="tutorial__modulo">
+				<fieldset class="modulo">
+					<legend class="modulo__titulo">Instalação</legend>
+					<section id="python">
+						<p class="modulo__texto">Vamos começar nosso projeto Django com a instalação do <strong>Python</strong>, se você é usuário do Linux, o caminho é bem simples,basta abrir o terminal(ctrl+alt+t) e digitar <code>sudo apt install python3</code></p>
+						<p class="modulo__texto">Se você é usuário do Windows, <a href="#">clique aqui</a> para instalar o <strong>Python</strong>.</p>
+					</section>
+				</fieldset>
+				<fieldset class="modulo">
+					<legend class="modulo__titulo">Ambiente virtual</legend>
+					<section id="venv">
+						<p class="modulo__texto">Um ambiente virtual(venv) é uma forma de isolar o nosso projeto, tudo o que está fora do nosso venv, não afetará em nada no nosso projeto. Criar um ambiente virtual não é obrigatório.</p>
+						<p class="modulo__texto">No <strong>Linux</strong>, dentro da pasta do seu projeto, abra o terminal e use <code>python3 -m venv env</code> onde "env" é o nome do seu ambiente virtual. Para ativar o ambiente virtual, abra o terminal e use <code>source env/bin/activate</code></p>
+						<p class="modulo__texto">No <strong>Windows</strong>,</p>
+					</section>
+				</fieldset>
+			</section>
+		</section>
+	</main>
 	<footer class="pagina__rodape">
 		<p class="rodape__titulo">&copy; Django Easy</p>
 	</footer>

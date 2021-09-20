@@ -1,0 +1,7 @@
+.links {
+    border-top: 0.5px solid rgb(240, 240, 245);
+    border-left: 0.5px solid gainsboro;
+    background-color: ghostwhite;
+
+    padding: 1rem;
+}

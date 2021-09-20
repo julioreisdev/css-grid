@@ -2,11 +2,9 @@
 	background-color: #F2F2F2;
 	color: grey;
 	font-weight: bold;
-	padding: 0.1rem 0 0.5rem 2rem;
+	padding: 0.1rem 0 0.8rem 2rem;
 	font-size: 1.5rem;
-	font-family: monospace;
-
-	box-shadow: 1px 0 5px #BDBDBD;
+	border-bottom: 0.1px solid gainsboro;
 
 	position: fixed;
 	top: 0;
@@ -28,4 +26,10 @@
 
 .cabecalho__titulo {
 	margin-top: 0.5rem;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+	.cabecalho {
+		padding-left: 1rem;
+	}
 }
