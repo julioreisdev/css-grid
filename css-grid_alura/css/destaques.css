@@ -1,0 +1,39 @@
+.destaques {
+    height: calc(100vh - 200px);
+    display: grid;
+    grid-template-columns: calc(60% - .2rem) 40%;
+    grid-template-rows: calc(50% - .2rem) 50%;
+    grid-gap: .2rem;
+}
+
+.destaque-foto {
+    width: 100%;
+    height: calc(100% - 3.5rem);
+}
+
+.destaque-linux {
+    background-image: url(../img/Linux-icon.png);
+}
+
+.destaque-git {
+    background-image: url('../img/Papirus-Team-Papirus-Apps-Github.svg');
+}
+
+.destaque-pw {
+    background-image: url("../img/pw.jpeg");
+}
+
+.destaque-principal {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.destaque-titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: gray;
+    font-weight: bold;
+    padding: 1rem 0;
+}

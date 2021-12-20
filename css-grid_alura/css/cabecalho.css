@@ -1,0 +1,103 @@
+.faixa-top {
+    background-color: darkslategrey;
+    padding: 0.5rem 0;
+}
+
+.saudacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-size: 4rem;
+}
+
+.titulo::before {
+    content: "</ ";
+}
+
+.titulo::after {
+    content: " >";
+}
+
+.subtitulo {
+    font-size: 2rem;
+}
+
+.frase-saudacoes {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: gray;
+    font-family: 'Orbitron', sans-serif;
+    border-right: 1px solid dimgray;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cursor-animation {
+    animation: cursor 500ms infinite normal;
+}
+
+.escrevendo-texto {
+    animation: texto 3s steps(25) 2s normal backwards;
+}
+
+@keyframes texto {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 200px;
+    }
+}
+
+@keyframes cursor {
+    form {
+        border-right-color: dimgray;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@media (min-width:0) and (max-width:1024px) {
+    .saudacao {
+        display: block;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .logo {
+        padding-bottom: 15px;
+    }
+
+    .frase-saudacoes {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    @keyframes texto {
+        from {
+            width: 0;
+        }
+    
+        to {
+            width: 100px;
+        }
+    }
+}

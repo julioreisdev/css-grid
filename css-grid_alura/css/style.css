@@ -1,0 +1,43 @@
+.app {
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-areas: 'cabecalho' 'conteudo' 'rodape';
+    grid-template-columns: auto;
+    grid-template-rows: 200px calc(100vh - 200px) auto;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: aliceblue;
+    box-shadow: 0 1px 5px gainsboro;
+    color: darkslategrey;
+}
+
+.conteudo {
+    grid-area: conteudo;
+}
+
+.rodape {
+    grid-area: rodape;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-fundo {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-fundo-cover {
+    background-size: cover;
+}
+
+.borda-branca-right {
+    border-right: 1px solid rgb(43, 42, 42);
+}
+
+.borda-preta-left {
+    border-left: 1px solid gray;
+}
